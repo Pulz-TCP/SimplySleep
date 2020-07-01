@@ -15,5 +15,5 @@
 | N/A | simplysleep.oninteract | Enables /sleep to run when interacting with a bed (regardless of time) |
 
 # Planned Features: 
-* Improve statistics, need to calculate days without since sleep
+* Improve statistics, need to calculate days since sleep
 * Toggleable warning when player exceeds 3 days without sleep (Phantoms spawn)
