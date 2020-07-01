@@ -42,11 +42,11 @@ public final class SimplySleep extends JavaPlugin {
                 if(p.hasPermission("simplysleep.sleeptime")) {
                     //there are 24000 ticks in a minecraft day, so obviously 1000 ticks in an hour
                     long ticktime = p.getStatistic(Statistic.TIME_SINCE_REST);
-                    long hours = ticktime / 1000 + 6;
-                    long minutes = (ticktime % 1000) * 60 / 1000;
+                    //long hours = ticktime / 1000 + 6;
+                    //long minutes = (ticktime % 1000) * 60 / 1000;
                     p.sendMessage("§5[§dSimplySleep§5]§f:");
                     p.sendMessage("Time since last sleep is: §7" + ticktime + " ticks");
-                    p.sendMessage("Or in Minecraft time: §7"+ hours + " hours, " + minutes + " minutes");
+                    //p.sendMessage("Or in Minecraft time: §7"+ hours + " hours, " + minutes + " minutes");
                 } else {
                     p.sendMessage("§5[§dSimplySleep§5]§7: You do not have permission for this command!");
                 }
