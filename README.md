@@ -5,7 +5,7 @@
 # Current Features: 
 * /sleep : Resets player sleep statistics that are used to calculate Phantom spawning
 * /sleeptime : Outputs current sleep statistics in minecraft ticks and converted into in-game hours + minutes
-* Interacting with a bed triggers the /sleep command if the permission is granted
+* Interacting with a bed does the same as /sleep if the permission is granted
 
 # Permissions
 | Command | Permission node | Feature |
