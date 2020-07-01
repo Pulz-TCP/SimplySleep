@@ -1,5 +1,6 @@
 # SimplySleep
- A simple sleep plugin for Spigot/Paper 1.16.1
+ A simple sleep plugin that negates the need for sleep voting and allows players to decide whether to allow Phantom attacks.
+ Built against Spigot API 1.15, tested on Paper 1.16.1
 
 # Current Features: 
 * /sleep : Resets player sleep statistics that are used to calculate Phantom spawning
