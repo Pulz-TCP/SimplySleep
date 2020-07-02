@@ -4,7 +4,7 @@
 
 # Current Features: 
 * /sleep : Resets player sleep statistics that are used to calculate Phantom spawning
-* /sleeptime : Outputs current sleep statistics in minecraft ticks and converted into in-game hours + minutes
+* /sleeptime : Outputs current sleep statistics in minecraft ticks and converted into in-game days, hours, minutes and seconds.
 * Interacting with a bed does the same as /sleep if the permission is granted
 
 # Permissions
@@ -15,5 +15,6 @@
 | N/A | simplysleep.oninteract | Enables /sleep to run when interacting with a bed (regardless of time) |
 
 # Planned Features: 
-* Improve statistics, need to calculate days since sleep
-* Toggleable warning when player exceeds 3 days without sleep (Phantoms spawn)
+* ~~Improve statistics, need to calculate days since sleep~~ Done!
+* Command to immediately enable Phantom Spawn
+* Configurable time to check a player's rest time, for toggleable warning when player exceeds 3 days without sleep (Phantoms spawn)
