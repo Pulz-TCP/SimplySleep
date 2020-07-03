@@ -3,9 +3,10 @@
  Built against Spigot API 1.15, tested on Paper 1.16.1
 
 # Current Features: 
-* /sleep : Resets player sleep statistics that are used to calculate Phantom spawning
+* /sleep : Resets player sleep statistics that are used to calculate Phantom spawning.
 * /sleeptime : Outputs current sleep statistics in minecraft ticks and converted into in-game days, hours, minutes and seconds.
-* Interacting with a bed does the same as /sleep if the permission is granted
+* /adddays <int> : Increases time since user last slept, which can trigger Phantom spawning if sleeptime => 3 days.
+* Interacting with a bed does the same as /sleep if the permission is granted.
 
 # Permissions
 | Command | Permission node | Feature |
