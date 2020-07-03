@@ -12,6 +12,7 @@
 | ------------- | ------------- | ------------- |
 | /sleep | simplysleep.sleep | Resets user sleep time | 
 | /sleeptime | simplysleep.sleeptime | Checks time since last 'sleep' | 
+| /adddays <int> | simplysleep.adddays | Increases time since user last slept, which can trigger Phantom spawning | 
 | N/A | simplysleep.oninteract | Enables /sleep to run when interacting with a bed (regardless of time) |
 
 # Planned Features: 
