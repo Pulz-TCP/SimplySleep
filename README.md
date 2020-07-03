@@ -18,5 +18,6 @@
 
 # Planned Features: 
 * ~~Improve statistics, need to calculate days since sleep~~ Done!
-* Command to immediately enable Phantom Spawn
+* ~~Command to immediately enable Phantom Spawn~~ Done! Via /adddays
 * Configurable time to check a player's rest time, for toggleable warning when player exceeds 3 days without sleep (Phantoms spawn)
+* Administrative commands to check + adjust player sleeptime
