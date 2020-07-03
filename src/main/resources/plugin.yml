@@ -1,5 +1,5 @@
 name: SimplySleep
-version: 1.0.2
+version: 1.0.3
 main: me.pulz.simplysleep.SimplySleep
 api-version: 1.15
 authors: [_Pulz]
@@ -7,7 +7,13 @@ description: Check and reset your sleep statistics to manage Phantoms
 commands:
   sleep:
     description: Resets your sleep statistics
+    permission: simplysleep.sleep
     usage: /<command>
   sleeptime:
     description: Outputs the time since your last slept, in minecraft time
+    permission: simplysleep.sleeptime
+    usage: /<command>
+  adddays:
+    description: Adds the specified number of days to the time since last sleep
+    permission: simplysleep.adddays
     usage: /<command>

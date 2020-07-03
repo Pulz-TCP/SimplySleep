@@ -1,4 +1,4 @@
-package me.pulz.simplysleep;
+package me.pulz.simplysleep.events;
 
 import org.bukkit.Statistic;
 import org.bukkit.entity.Player;
