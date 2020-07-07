@@ -1,0 +1,3 @@
+# set disable-phantoms to true to prevent Phantom spawning
+features:
+  disable-phantoms: false

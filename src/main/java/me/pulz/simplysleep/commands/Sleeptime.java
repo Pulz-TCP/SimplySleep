@@ -32,6 +32,10 @@ public class Sleeptime implements CommandExecutor {
                     long seconds = (long) ((double) ticktime / (1000d / 60d / 60d));
                     ticktime -= seconds * (1000d / 60d / 60d);
                     p.sendMessage("§5[§dSimplySleep§5]§7: §fTime since last sleep is: \n§7" + days + " §fdays, §7" + hours + " §fhours, §7" + minutes + " §fminutes, §7" + seconds + " §fseconds.");
+                    int newStatistic = p.getStatistic(Statistic.TIME_SINCE_REST)/24000;
+                    if(newStatistic >= 3){
+                        p.sendMessage("§5[§dSimplySleep§5]§7: §fYour sleep time is above 3 days, Phantoms will spawn and attack you!");
+                    }
                 } else {
                     p.sendMessage("§5[§dSimplySleep§5]§7: §fYou do not have permission for this command!");
                 }

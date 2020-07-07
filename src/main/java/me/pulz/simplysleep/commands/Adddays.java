@@ -36,6 +36,10 @@ public class Adddays implements CommandExecutor {
 
                                 p.incrementStatistic(Statistic.TIME_SINCE_REST, finalNumber);
                                 p.sendMessage("§5[§dSimplySleep§5]§7: §fAdded §7" + selectedNumber + " §fdays to your time since last sleep!");
+                                int newStatistic = p.getStatistic(Statistic.TIME_SINCE_REST)/24000;
+                                if(newStatistic >= 3){
+                                    p.sendMessage("§5[§dSimplySleep§5]§7: §fYour sleep time is now above 3 days, Phantoms will start attacking you!");
+                                }
                             }
                         }
 
