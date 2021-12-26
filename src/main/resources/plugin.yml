@@ -1,7 +1,7 @@
 name: SimplySleep
-version: 1.0.4
+version: 1.0.5
 main: me.pulz.simplysleep.SimplySleep
-api-version: 1.15
+api-version: 1.18
 authors: [_Pulz]
 description: Check and reset your sleep statistics to manage Phantoms
 commands:
